@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+  .weather-content {
+    max-width: 100%;
+  }
+
+  form input[type="submit"]:hover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .weather-content {
+    padding: 20px;
+  }
+
+  .result {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .weather-content {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .result {
+    text-align: center;
+  }
+
+  .get-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .get-weather select,
+  .get-weather input[type="text"],
+  .get-weather input[type="submit"] {
+    margin: 10px;
+  }
+}
